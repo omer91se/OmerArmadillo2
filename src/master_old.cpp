@@ -14,12 +14,13 @@ typedef actionlib::SimpleActionClient<armadillo2_bgu::OperationAction> Client;
 
 ros::Publisher pub;
 
+
 void controlCB(const armadillo2_bgu::ActionDispatch::ConstPtr& msg){
     ROS_INFO("MASTER: Starting");
 	armadillo2_bgu::OperationGoal goal;
     bool action = true;
-
-    Client client(msg->name, true);
+    std::string topic_name = "bgu/" + msg->name;
+    Client client(topic_name, true);
     client.waitForServer();
 
 	while (ros::ok() && action){

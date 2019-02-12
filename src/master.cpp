@@ -31,7 +31,9 @@ void controlCB(const rosplan_dispatch_msgs::ActionDispatch::ConstPtr& msg) {
     int id = msg->action_id;
     int paramSize = (msg->parameters).size();
 
+
     std::string name = msg->name;
+    std::string client_name = "bgu/" + name;
     std::string effecttype = "effect";
     // It is important but we will bother about this effect-type later
 
@@ -45,7 +47,7 @@ void controlCB(const rosplan_dispatch_msgs::ActionDispatch::ConstPtr& msg) {
     }
     // End: Shashank 8.8.18
 
-    Client client(msg->name, true);
+    Client client(client_name, true);
     client.waitForServer();
 
 	while (ros::ok() && action) {
