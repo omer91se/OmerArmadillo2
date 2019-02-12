@@ -12,6 +12,7 @@ void controlCB(const armadillo2_bgu::ActionFeedback::ConstPtr& msg){
     armadillo2_bgu::ActionDispatch reMsg;
     if(msg->status == "action achieved"){
         ROS_INFO("Action2!");
+        std::cin>>action;
         reMsg.name = action;
         pub.publish(reMsg);
     }

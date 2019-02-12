@@ -394,28 +394,13 @@ void executePlaceCB(const armadillo2_bgu::SimplePlaceGoalConstPtr& goal, place_s
 
     obj_name = goal->obj_name;
 
-    // get original goal point
-    geometry_msgs::PointStamped origin_goal;
-    origin_goal.header.frame_id = goal->frame_id;
-    origin_goal.point.x = goal->x;
-    origin_goal.point.y = goal->y;
-    origin_goal.point.z = goal->z;
 
     // transfer original goal to in relation to base footprint
-    geometry_msgs::PointStamped transformed_goal;
-    try
-    {
-        transformer->transformPoint("/base_footprint", origin_goal, transformed_goal);
-    }
-    catch (tf::TransformException ex)
-    {
-        ROS_ERROR("%s",ex.what());
-    }
 
     // build and execute pick
-    moveit_msgs::PlaceGoal place_goal = buildPlaceGoal(transformed_goal.point.x,
-                                                        transformed_goal.point.y,
-                                                        transformed_goal.point.z,
+    moveit_msgs::PlaceGoal place_goal = buildPlaceGoal(goal->x,
+                                                        goal->y,
+                                                        goal->z,
                                                         goal->obj_name);
     actionlib::SimpleClientGoalState place_status = place_client.sendGoalAndWait(place_goal);
 

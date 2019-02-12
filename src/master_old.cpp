@@ -19,7 +19,8 @@ void controlCB(const armadillo2_bgu::ActionDispatch::ConstPtr& msg){
 	armadillo2_bgu::OperationGoal goal;
     bool action = true;
 
-    Client client(msg->name, true);
+    Client client("bgu_"+msg->name, true);
+    ROS_INFO("[master_old]: The Action is: %s", ("bgu_"+msg->name).c_str());
     client.waitForServer();
 
 	while (ros::ok() && action){
@@ -45,6 +46,7 @@ void controlCB(const armadillo2_bgu::ActionDispatch::ConstPtr& msg){
         Remsg.status = "action achieved";
     else
         Remsg.status = "action failed";
+
 	pub.publish(Remsg);
 }
 
