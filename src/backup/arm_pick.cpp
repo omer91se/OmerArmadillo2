@@ -359,7 +359,7 @@ void executePickCB(const armadillo2_bgu::SimplePickGoalConstPtr& goal, pick_serv
     }
 
     executing_pick = false;
-
+    ROS_INFO("[arm_server]: Removing Objects");
     moveit_msgs::CollisionObject remove_object;
     remove_object.id = TABLE_NAME;
     remove_object.header.frame_id = "/base_footprint";
@@ -395,6 +395,11 @@ void executePlaceCB(const armadillo2_bgu::SimplePlaceGoalConstPtr& goal, place_s
     obj_name = goal->obj_name;
 
 
+
+    // build and execute pick
+    moveit_msgs::PlaceGoal place_goal = buildPlaceGoal(goal->x,
+                                                        goal->y,
+                                                        goal->z-0.30,
     // transfer original goal to in relation to base footprint
 
     // build and execute pick

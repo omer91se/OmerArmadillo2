@@ -14,13 +14,13 @@ typedef actionlib::SimpleActionClient<armadillo2_bgu::OperationAction> Client;
 
 ros::Publisher pub;
 
-
 void controlCB(const armadillo2_bgu::ActionDispatch::ConstPtr& msg){
     ROS_INFO("MASTER: Starting");
 	armadillo2_bgu::OperationGoal goal;
     bool action = true;
-    std::string topic_name = "bgu/" + msg->name;
-    Client client(topic_name, true);
+
+    Client client("bgu_"+msg->name, true);
+    ROS_INFO("[master_old]: The Action is: %s", ("bgu_"+msg->name).c_str());
     client.waitForServer();
 
 	while (ros::ok() && action){
@@ -46,6 +46,7 @@ void controlCB(const armadillo2_bgu::ActionDispatch::ConstPtr& msg){
         Remsg.status = "action achieved";
     else
         Remsg.status = "action failed";
+
 	pub.publish(Remsg);
 }
 

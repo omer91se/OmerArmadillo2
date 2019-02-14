@@ -283,7 +283,7 @@ bool build_goal(move_base_msgs::MoveBaseGoal &target, geometry_msgs::Pose &objec
 
     target.target_pose.header.stamp = ros::Time::now();
 
-    target.target_pose.pose.position.x = transformed_goal.point.x-0.5;
+    target.target_pose.pose.position.x = transformed_goal.point.x-0.4;
     target.target_pose.pose.position.y = transformed_goal.point.y;
     //std::cout<<"target.target_pose.pose.position.z: "<<target.target_pose.pose.position.z;
     //target.target_pose.pose.position.z = transformed_goal.point.z;
@@ -323,8 +323,6 @@ void driveCB(const armadillo2_bgu::SimpleTargetGoalConstPtr& goal, target_server
     point.position.x = goal->x;
     point.position.y = goal->y;
     point.position.z = goal->z;
-
-    //Build goal and mark in RVIZ
     if(!build_goal(MB_goal,point)){
         ROS_INFO("couldn't create goal.");
         as->setAborted();
@@ -332,10 +330,10 @@ void driveCB(const armadillo2_bgu::SimpleTargetGoalConstPtr& goal, target_server
     }
     MoveBaseClient _mb_client("move_base", true);
 
-    //for saftey
-    char ready;
-    std::cout<<"[move]: enter any char to move"<<std::endl;
-    std::cin>>ready;
+//    //for saftey
+//    char ready;
+//    std::cout<<"[move]: enter any char to move"<<std::endl;
+//    std::cin>>ready;
 
     _mb_client.sendGoalAndWait(MB_goal);
     if(_mb_client.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)

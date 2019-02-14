@@ -41,6 +41,7 @@ private:
         if((-M_PI / 4)  < feedback->actual.positions[1] && _needToOpen && !_alreadyOpen) {
             _alreadyOpen = true;
             ROS_INFO("OPEN %f", feedback->actual.positions[1]);
+            //openGripper();
         }
     }
     void activeCb() {
@@ -110,15 +111,42 @@ public:
 
     }
 
-    void open_gripper() {
+    void run() {
+        char choice;
+        do {
+            //std::cout << "Please type 'g' to execute a throw command or 'q' to quit: ";
+            //std::cin >> choice;
+            //if(choice == 'g') throwProcess();
+            //else if(choice == 'q') ROS_INFO("bye bye");
+            //else ROS_WARN("Unknown syntax");
+            throwProcess();
+            choice = 'q';
+
+        } while (ros::ok() && choice != 'q');
+        ros::shutdown();
+    }
+
+    void throwProcess() {
+        _alreadyOpen = false;
+        //openGripper();
+        //closeGripper();
+        preThrowCmd();
+        //ros::Duration(10.0).sleep();
+
+        //ros::Duration(3.0).sleep();
+        //throwCmd();
+
+    }
+    void openGripper() {
         setGripperCmd(0.14);
     }
 
-    void close_gripper() {
+    void closeGripper() {
         setGripperCmd(0.01, 0.007);
     }
 
-    void fixed_pour() {
+
+    void fixedPour() {
       //  setArmCmd(0,0.1);
         std::cout<<joints[5]<<std::endl;
         setArmCmd(joints[0],joints[1],joints[2],0,joints[4],2.15);
@@ -126,7 +154,7 @@ public:
         setArmCmd(joints[0],joints[1],joints[2],0,joints[4],joints[5]);
     }
 
-    void extend_arm() {
+    void throwCmd() {
         setArmCmd(0.0,0.37,0.-0.25,0.0,0.57,0.00);
         ros::Duration(2).sleep();
         //setArmCmd(0.0,0.0,0.0,2.5,-1.38,0.00);
@@ -151,53 +179,23 @@ void subCB(const control_msgs::JointTrajectoryControllerStateConstPtr jointState
 void pour(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as){
     ROS_INFO("POUR: In CB");
     ArmThrowNode armThrowNode;
-    armThrowNode.fixed_pour();
+    armThrowNode.fixedPour();
 
     as->setSucceeded();
 }
 void give(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as){
     ROS_INFO("GIVE: In CB");
     ArmThrowNode armThrowNode;
-    armThrowNode.extend_arm();
-
+    armThrowNode.throwCmd();
+    //armThrowNode.run();
     as->setSucceeded();
 }
 void open(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as){
     ROS_INFO("OPEN: In CB");
     ArmThrowNode armThrowNode;
-    armThrowNode.open_gripper();
+    armThrowNode.openGripper();
 
-
-//*****Action Callbacks******
 }
-void doneCb(const actionlib::SimpleClientGoalState& state, const control_msgs::FollowJointTrajectoryResultConstPtr& result) {
-    ROS_INFO("Finish in state [%s]", state.toString().c_str());
-//    ROS_INFO_STREAM((*result));
-    ros::shutdown();
-}
-
-void feedbackCb(const control_msgs::FollowJointTrajectoryFeedbackConstPtr& feedback) {
-    //ROS_INFO("%f", feedback->actual.positions[1]);
-    static bool isOpen = false;
-    if((-M_PI / 4)  < feedback->actual.positions[1] && !isOpen) {
-        isOpen = true;
-        ROS_INFO("OPEN %f", feedback->actual.positions[1]);
-        GripperClient gripperClient("gripper_controller/gripper_cmd", true);
-        gripperClient.waitForServer();
-        control_msgs::GripperCommandGoal openGoal;
-        openGoal.command.position = 0.14;
-        gripperClient.sendGoal(openGoal);
-        ROS_INFO("SEND TO GRIPPER");
-        gripperClient.waitForResult();
-        ROS_INFO("GRIPPER IS OPEN");
-
-    }
-}
-
-void activeCb() {
-    ROS_INFO("Arm is moving");
-}
-
 int main(int argc, char** argv) {
     ros::init(argc, argv, "pour");
 
@@ -207,7 +205,7 @@ int main(int argc, char** argv) {
     ros::Subscriber sub = n.subscribe("/arm_trajectory_controller/state", 1000, subCB);
     Server pourServer(n, "bgu_pour", boost::bind(&pour, _1, &pourServer), false);
     Server giveServer(n, "bgu_extand", boost::bind(&give, _1, &giveServer), false);
-    Server openServer(n, "bgu_open",boost::bind(&open,_1,&openServer),false);
+    Server openServer(n,"bgu_open",boost::bind(&open,_1,&openServer),false);
 
     ros::AsyncSpinner spinner(4);
     giveServer.start();
@@ -217,7 +215,54 @@ int main(int argc, char** argv) {
     ros::waitForShutdown();
 
 
+    //armClient.sendGoal(goal, &doneCb, &activeCb, ArmClient::SimpleFeedbackCallback());
+
     return 0;
 }
 
+void buildGoal(control_msgs::FollowJointTrajectoryGoal &goal) {
+    trajectory_msgs::JointTrajectoryPoint final;
 
+    goal.trajectory.header.frame_id = "/map";
+    goal.trajectory.header.stamp = ros::Time::now();
+    goal.trajectory.joint_names.push_back("rotation1_joint");
+    goal.trajectory.joint_names.push_back("shoulder1_joint");
+    goal.trajectory.joint_names.push_back("shoulder2_joint");
+    goal.trajectory.joint_names.push_back("rotation2_joint");
+    goal.trajectory.joint_names.push_back("shoulder3_joint");
+    goal.trajectory.joint_names.push_back("wrist_joint");
+
+    final.time_from_start = ros::Duration(10.0);
+    final.positions.resize(goal.trajectory.joint_names.size());
+    final.positions[1] = 1.57;
+    goal.trajectory.points.push_back(final);
+
+}
+
+void doneCb(const actionlib::SimpleClientGoalState& state, const control_msgs::FollowJointTrajectoryResultConstPtr& result) {
+    ROS_INFO("Finish in state [%s]", state.toString().c_str());
+//    ROS_INFO_STREAM((*result));
+    ros::shutdown();
+}
+
+void feedbackCb(const control_msgs::FollowJointTrajectoryFeedbackConstPtr& feedback) {
+    //ROS_INFO("%f", feedback->actual.positions[1]);
+    static bool isOpen = false;
+   if((-M_PI / 4)  < feedback->actual.positions[1] && !isOpen) {
+       isOpen = true;
+       ROS_INFO("OPEN %f", feedback->actual.positions[1]);
+       GripperClient gripperClient("gripper_controller/gripper_cmd", true);
+       gripperClient.waitForServer();
+       control_msgs::GripperCommandGoal openGoal;
+       openGoal.command.position = 0.14;
+       gripperClient.sendGoal(openGoal);
+       ROS_INFO("SEND TO GRIPPER");
+       gripperClient.waitForResult();
+       ROS_INFO("GRIPPER IS OPEN");
+
+   }
+}
+
+void activeCb() {
+    ROS_INFO("Arm is moving");
+}

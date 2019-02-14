@@ -349,6 +349,7 @@ def execute(goal):
     if answer != 'object_not_found': #object found
         _result.res = answer[0]
         rospy.loginfo(answer[1])
+        rospy.loginfo("[run_object_rec]: succeeded getting result")
         server.set_succeeded(_result)
     
     else: #could not find object
