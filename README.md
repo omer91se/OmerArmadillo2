@@ -1,5 +1,33 @@
 # armadillo2_bgu
 
+src folder:
+
+master: 
+
+
+pick.cpp: 
+used to pick and place an object, using object_rec to find the object.
+picks it up, saves the xyz to place it back later.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 1 .ssh -X to robot , run launch with kinect

@@ -71,21 +71,21 @@ add_executable(arm_trajectory_open_gripper src/arm_trajectory_open_gripper.cpp)
 target_link_libraries(arm_trajectory_open_gripper  ${catkin_LIBRARIES})
 add_dependencies(arm_trajectory_open_gripper armadillo2_bgu_generate_messages_cpp)
 
-add_executable(master src/master.cpp)
-target_link_libraries(master ${catkin_LIBRARIES})
-add_dependencies(master armadillo2_bgu_generate_messages_cpp)
+#add_executable(master src/master.cpp)
+#target_link_libraries(master ${catkin_LIBRARIES})
+#add_dependencies(master armadillo2_bgu_generate_messages_cpp)
 
 add_executable(observe src/observe.cpp)
 target_link_libraries(  observe  ${catkin_LIBRARIES})
 add_dependencies(observe armadillo2_bgu_generate_messages_cpp)
 
-add_executable(place src/place.cpp)
-target_link_libraries(  place  ${catkin_LIBRARIES})
-add_dependencies(place armadillo2_bgu_generate_messages_cpp)
-
 add_executable(pick src/pick.cpp)
 target_link_libraries(  pick  ${catkin_LIBRARIES})
 add_dependencies(pick armadillo2_bgu_generate_messages_cpp)
+
+add_executable(pick_gazebo src/Gazebo/pick_gazebo.cpp)
+target_link_libraries(  pick_gazebo  ${catkin_LIBRARIES})
+add_dependencies(pick_gazebo armadillo2_bgu_generate_messages_cpp)
 
 add_executable(move src/move.cpp)
 target_link_libraries(  move  ${catkin_LIBRARIES})
