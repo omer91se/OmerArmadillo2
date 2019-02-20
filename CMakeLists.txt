@@ -71,9 +71,9 @@ add_executable(arm_trajectory_open_gripper src/arm_trajectory_open_gripper.cpp)
 target_link_libraries(arm_trajectory_open_gripper  ${catkin_LIBRARIES})
 add_dependencies(arm_trajectory_open_gripper armadillo2_bgu_generate_messages_cpp)
 
-#add_executable(master src/master.cpp)
-#target_link_libraries(master ${catkin_LIBRARIES})
-#add_dependencies(master armadillo2_bgu_generate_messages_cpp)
+add_executable(master src/master.cpp)
+target_link_libraries(master ${catkin_LIBRARIES})
+add_dependencies(master armadillo2_bgu_generate_messages_cpp)
 
 add_executable(observe src/observe.cpp)
 target_link_libraries(  observe  ${catkin_LIBRARIES})
@@ -103,9 +103,9 @@ add_executable(omer_planner src/omer_planner.cpp)
 target_link_libraries(  omer_planner  ${catkin_LIBRARIES})
 add_dependencies(omer_planner armadillo2_bgu_generate_messages_cpp)
 
-add_executable(pour src/pour.cpp)
-target_link_libraries(  pour  ${catkin_LIBRARIES})
-add_dependencies(pour armadillo2_bgu_generate_messages_cpp)
+add_executable(manipulation src/manipulation.cpp)
+target_link_libraries(  manipulation  ${catkin_LIBRARIES})
+add_dependencies(manipulation armadillo2_bgu_generate_messages_cpp)
 
 add_executable(detect_elv_door_open src/detect_elv_door_open.cpp)
 target_link_libraries(detect_elv_door_open  ${catkin_LIBRARIES})
@@ -156,6 +156,10 @@ add_dependencies(master_old armadillo2_bgu_generate_messages_cpp)
 add_executable(data_base_node src/data_base_node.cpp)
 target_link_libraries(data_base_node  ${catkin_LIBRARIES})
 add_dependencies(data_base_node armadillo2_bgu_generate_messages_cpp)
+
+add_executable(search_for_person src/search_for_person.cpp)
+target_link_libraries(search_for_person  ${catkin_LIBRARIES})
+add_dependencies(search_for_person armadillo2_bgu_generate_messages_cpp)
 
 
 

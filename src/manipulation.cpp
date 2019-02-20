@@ -199,14 +199,14 @@ void activeCb() {
 }
 
 int main(int argc, char** argv) {
-    ros::init(argc, argv, "pour");
+    ros::init(argc, argv, "manipulation");
 
-    std::cout<<"arm online"<<std::endl;
+    std::cout<<"manipulation online"<<std::endl;
     ros::NodeHandle n;
 
     ros::Subscriber sub = n.subscribe("/arm_trajectory_controller/state", 1000, subCB);
     Server pourServer(n, "bgu_pour", boost::bind(&pour, _1, &pourServer), false);
-    Server giveServer(n, "bgu_extand", boost::bind(&give, _1, &giveServer), false);
+    Server giveServer(n, "bgu_extend", boost::bind(&give, _1, &giveServer), false);
     Server openServer(n, "bgu_open",boost::bind(&open,_1,&openServer),false);
 
     ros::AsyncSpinner spinner(4);

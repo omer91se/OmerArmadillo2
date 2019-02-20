@@ -15,6 +15,8 @@
 
 #define TABLE_NAME "table"
 
+void arm_position(std::string name);
+
 // server wrapper for pick & place goals
 typedef actionlib::SimpleActionServer<armadillo2_bgu::SimplePickAction> pick_server_t;
 typedef actionlib::SimpleActionServer<armadillo2_bgu::SimplePlaceAction> place_server_t;
@@ -296,6 +298,22 @@ void executeTargetCB(const armadillo2_bgu::SimpleTargetGoalConstPtr& goal, targe
 
 
 /**************************PICK SERVER CALLBACKS****************************/
+
+void arm_position(std::string name){
+    ROS_INFO("[arm_pick]: Setting arm position");
+    moveit::planning_interface::MoveGroupInterface group("arm");
+    group.setPlanningTime(10.0);
+    group.setNumPlanningAttempts(50);
+    group.setPlannerId("RRTConnectkConfigDefault");
+    group.setPoseReferenceFrame("base_footprint");
+
+    group.setStartStateToCurrentState();
+    group.setNamedTarget(name);
+    moveit::planning_interface::MoveGroupInterface::Plan startPosPlan;
+    if(group.plan(startPosPlan))
+        group.execute(startPosPlan);
+}
+
 void executePickCB(const armadillo2_bgu::SimplePickGoalConstPtr& goal, pick_server_t* as)
 {
     if (executing_place || executing_target)
@@ -304,7 +322,7 @@ void executePickCB(const armadillo2_bgu::SimplePickGoalConstPtr& goal, pick_serv
         as->setAborted(result, "tried to execute target, while some other goal");
         return;
     }
-
+    arm_position("cobra_center");
     executing_pick = true;
 
     distance = 0.0;
@@ -370,6 +388,7 @@ void executePickCB(const armadillo2_bgu::SimplePickGoalConstPtr& goal, pick_serv
     remove_object.header.frame_id = "/base_footprint";
     remove_object.operation = remove_object.REMOVE;
 
+    arm_position("driving");
 }
 /***************************************************************************/
 
@@ -435,7 +454,7 @@ int main(int argc, char** argv)
     // use async spinner when working with moveit
     ros::AsyncSpinner spinner(1);
     spinner.start();
-
+    
     // we need move group to get gripper current point, and for target server
     moveit::planning_interface::MoveGroupInterface group("arm");
     group_ptr = &group;

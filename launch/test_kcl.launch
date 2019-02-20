@@ -1,13 +1,16 @@
 <?xml version="1.0"?>
 
-<!--roslaunch armadillo2 armadillo2.launch kinect:=true move_base:=true gazebo:=true moveit:=true world_name:="/home/labkinetic/gazebo_ws/src/Planning/worlds/pick_and_give.world" x:=0.750732 y:=-0.346688 z:=0.002-->
+
 <launch>  
     
-<node name="master" pkg="armadillo2_bgu" type="master_old" output="screen">
-    </node> 
+<!--<node name="master" pkg="armadillo2_bgu" type="master_old" output="screen">
+    </node> -->
    
-<node name="omer_planner" pkg="armadillo2_bgu" type="omer_planner" output="screen">
-    </node>   
+<node name="master" pkg="armadillo2_bgu" type="master" output="screen">
+    </node>
+
+<!--<node name="omer_planner" pkg="armadillo2_bgu" type="omer_planner" output="screen">
+   </node>  --> 
     
     <!-- <node name="run_node" pkg="armadillo2_bgu" type="run_object_rec.py" output="log">
     </node> --> 
@@ -34,7 +37,7 @@
     </group>
 
     <group if="$(arg pour)" >
-    <node name="manipulation" pkg="armadillo2_bgu" type="manipulation" output="screen">
+    <node name="pour" pkg="armadillo2_bgu" type="pour" output="screen">
     </node>
     </group>
      
@@ -42,7 +45,6 @@
 
     <group if="$(arg give)" >
         <node name="give" pkg="armadillo2_bgu" type="give" output="screen"></node>
-        <node name="search_for_person" pkg="armadillo2_bgu" type="search_for_person" output="screen"></node>
     </group>
 
  

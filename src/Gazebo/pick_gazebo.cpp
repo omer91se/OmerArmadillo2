@@ -15,6 +15,7 @@
 #include <tf/transform_listener.h>
 #include <tf/transform_datatypes.h>
 #include <armadillo2_bgu/SimplePlaceAction.h>
+#include <moveit_msgs/PickupAction.h>
 
 typedef actionlib::SimpleActionServer<armadillo2_bgu::OperationAction> Server;
 typedef actionlib::SimpleActionClient<armadillo2_bgu::OperationAction> Client;
@@ -38,6 +39,8 @@ std::string camFrameID = "kinect2_depth_optical_frame";
 bool moved = false;
 
 void move();
+void look_down();
+ros::Publisher pan_pub;
 
 void move(){
     target_client_t target_client("move", true);
@@ -69,7 +72,25 @@ void poseCB(const geometry_msgs::PoseStamped::ConstPtr& msg) {
     gotXYZ =true;
 }
 
+void look_down() {
+    ROS_INFO("[pick]: Looking down");
+    trajectory_msgs::JointTrajectory traj;
+    traj.header.stamp = ros::Time::now();
+    traj.joint_names.push_back("head_pan_joint");
+    traj.joint_names.push_back("head_tilt_joint");
+    traj.points.resize(1);
+    traj.points[0].time_from_start = ros::Duration(1.0);
+    std::vector<double> q_goal(2);
+    q_goal[0]=0.0;
+    q_goal[1]=0.7;
+    traj.points[0].positions=q_goal;
+    traj.points[0].velocities.push_back(0);
+    traj.points[0].velocities.push_back(0);
+    pan_pub.publish(traj);
+}
+
 void pick_cb(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as){
+    look_down();
     armadillo2_bgu::OperationGoal sendGoal;
     ROS_INFO("Starting pick sequence");
 
@@ -203,6 +224,8 @@ int main(int argc, char** argv)
   Server place_server(n, "bgu_place", boost::bind(&place_cb, _1, &place_server), false);
   pick_server.start();
   place_server.start();
+
+  pan_pub = n.advertise<trajectory_msgs::JointTrajectory>("/pan_tilt_trajectory_controller/command", 2);
 
   ros::AsyncSpinner spinner(2);
   spinner.start();
