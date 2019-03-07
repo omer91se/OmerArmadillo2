@@ -1,4 +1,4 @@
-/home/armadillo2/Programs/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/armadillo2/catkin_ws/src/armadillo2_bgu
+/home/labkinetic/Programs/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/labkinetic/catkin_ws/src/Planning
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -13,22 +13,44 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
-CMake Error at CMakeLists.txt:4 (find_package):
-  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
-  asked CMake to find a package configuration file provided by "catkin", but
-  CMake did not find one.
-
-  Could not find a package configuration file provided by "catkin" with any
-  of the following names:
-
-    catkinConfig.cmake
-    catkin-config.cmake
-
-  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
-  "catkin_DIR" to a directory containing one of the above files.  If "catkin"
-  provides a separate development package or SDK, be sure it has been
-  installed.
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/armadillo2/catkin_ws/src/armadillo2_bgu/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Using CATKIN_DEVEL_PREFIX: /home/labkinetic/catkin_ws/src/Planning/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/labkinetic/catkin_ws/devel;/home/labkinetic/gazebo_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/labkinetic/catkin_ws/devel;/home/labkinetic/gazebo_ws/devel;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/labkinetic/catkin_ws/src/Planning/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Generating .msg files for action armadillo2_bgu/Operation /home/labkinetic/catkin_ws/src/Planning/action/Operation.action
+Generating for action Operation
+-- Generating .msg files for action armadillo2_bgu/VocalCmd /home/labkinetic/catkin_ws/src/Planning/action/VocalCmd.action
+Generating for action VocalCmd
+-- Generating .msg files for action armadillo2_bgu/SimplePick /home/labkinetic/catkin_ws/src/Planning/action/SimplePick.action
+Generating for action SimplePick
+-- Generating .msg files for action armadillo2_bgu/SimplePlace /home/labkinetic/catkin_ws/src/Planning/action/SimplePlace.action
+Generating for action SimplePlace
+-- Generating .msg files for action armadillo2_bgu/SimpleTarget /home/labkinetic/catkin_ws/src/Planning/action/SimpleTarget.action
+Generating for action SimpleTarget
+-- Generating .msg files for action armadillo2_bgu/Data_base /home/labkinetic/catkin_ws/src/Planning/action/Data_base.action
+Generating for action Data_base
+-- armadillo2_bgu: 44 messages, 1 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/labkinetic/catkin_ws/src/Planning/cmake-build-debug

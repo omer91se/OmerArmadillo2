@@ -11,6 +11,8 @@ void arm_position(std::string name);
 typedef actionlib::SimpleActionServer<armadillo2_bgu::OperationAction> Server;
 typedef actionlib::SimpleActionClient<armadillo2_bgu::OperationAction> Client;
 
+bool cobra = false;
+
 void arm_position(std::string name){
     ROS_INFO("[give]: Setting arm position");
     moveit::planning_interface::MoveGroupInterface group("arm");
@@ -22,15 +24,19 @@ void arm_position(std::string name){
     group.setStartStateToCurrentState();
     group.setNamedTarget(name);
     moveit::planning_interface::MoveGroupInterface::Plan startPosPlan;
-    if(group.plan(startPosPlan))
+    if(group.plan(startPosPlan)){
         group.execute(startPosPlan);
+        cobra = true;
+    }
+    
 }
 
 void doneSTT(const actionlib::SimpleClientGoalState& state,
             const armadillo2_bgu::OperationResultConstPtr& result)
 {
     ROS_INFO("[give]: in doneSTT");
-    if(result->res == "open") {
+    std::cout<<"result->res:"<<result->res<<std::endl;
+    if(result->res == "bgu_open") {
         Client open_client("open", true);
         open_client.waitForServer();
         armadillo2_bgu::OperationGoal open_goal;
@@ -56,6 +62,7 @@ void activeCB()
     
     armadillo2_bgu::OperationGoal STT_goal;
     STT_client.sendGoal(STT_goal,&doneSTT,&activeSTT,&feedbackSTT);
+    STT_client.waitForResult(ros::Duration(30.0));
 }
 //Check if "open" in string
 
@@ -78,20 +85,21 @@ void execute(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as)
 
     arm_position("cobra_center");
     //Extend server
-    Client extend_client("bgu_extend", true);
-    extend_client.waitForServer();
-    armadillo2_bgu::OperationGoal extend_goal;
-    extend_client.sendGoalAndWait(extend_goal);
+    if(cobra){
+        Client extend_client("bgu_extend", true);
+        extend_client.waitForServer();
+        armadillo2_bgu::OperationGoal extend_goal;
+        extend_client.sendGoalAndWait(extend_goal);
 
-    //TTS server
-    Client TTS_client("describe_wuc",true);
-    TTS_client.waitForServer();
+        //TTS server
+        Client TTS_client("describe_wuc",true);
+        TTS_client.waitForServer();
 
-    armadillo2_bgu::OperationGoal TTS_goal;
-    TTS_goal.data = "Please take the object";
-    ROS_INFO("Please take the object");
-    TTS_client.sendGoal(TTS_goal);
-    activeCB();
+        armadillo2_bgu::OperationGoal TTS_goal;
+        TTS_goal.data = "Tell me when to open the gripper";
+        TTS_client.sendGoal(TTS_goal);
+        activeCB();
+    }
 
 
 /**

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/labkinetic/catkin_ws/src/Planning/cmake-build-debug/devel/setup.sh

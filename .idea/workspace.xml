@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePickResult" />
+      <config projectName="armadillo2_bgu" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionGoal" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionFeedback" />
+      <config projectName="armadillo2_bgu" targetName="shape_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="give" />
+      <config projectName="armadillo2_bgu" targetName="tf_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="shape_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionResult" />
+      <config projectName="armadillo2_bgu" targetName="tf_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="master" />
+      <config projectName="armadillo2_bgu" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_OperationActionFeedback" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_OperationFeedback" />
+      <config projectName="armadillo2_bgu" targetName="octomap_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePickAction" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_Data_baseGoal" />
+      <config projectName="armadillo2_bgu" targetName="run_tests" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_VocalCmdGoal" />
+      <config projectName="armadillo2_bgu" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="object_recognition_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_OperationActionGoal" />
+      <config projectName="armadillo2_bgu" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePickActionResult" />
+      <config projectName="armadillo2_bgu" targetName="shape_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetAction" />
+      <config projectName="armadillo2_bgu" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="gtest" />
+      <config projectName="armadillo2_bgu" targetName="moveit_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="sensor_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="gmock_main" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePickActionGoal" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceResult" />
+      <config projectName="armadillo2_bgu" targetName="moveit_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_gennodejs" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_VocalCmdActionFeedback" />
+      <config projectName="armadillo2_bgu" targetName="pick" />
+      <config projectName="armadillo2_bgu" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="tf_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="tests" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_VocalCmdAction" />
+      <config projectName="armadillo2_bgu" targetName="enter_elvator" />
+      <config projectName="armadillo2_bgu" targetName="detect_elv_door_open" />
+      <config projectName="armadillo2_bgu" targetName="shape_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePickGoal" />
+      <config projectName="armadillo2_bgu" targetName="pick_gazebo" />
+      <config projectName="armadillo2_bgu" targetName="master_old" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="omer_planner" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_ActionFeedback" />
+      <config projectName="armadillo2_bgu" targetName="arm_trajectory_close_gripper" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_ReturnJointStates" />
+      <config projectName="armadillo2_bgu" targetName="exit-elevator" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceAction" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetGoal" />
+      <config projectName="armadillo2_bgu" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="object_recognition_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_genlisp" />
+      <config projectName="armadillo2_bgu" targetName="arm_trajectory_give" />
+      <config projectName="armadillo2_bgu" targetName="roscpp_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionGoal" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_Data_baseResult" />
+      <config projectName="armadillo2_bgu" targetName="roscpp_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_OperationResult" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_ActionDispatch" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_Data_baseActionResult" />
+      <config projectName="armadillo2_bgu" targetName="trajectory_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="moveit_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="visualization_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="object_detect" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_generate_messages" />
+      <config projectName="armadillo2_bgu" targetName="download_extra_data" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_gencpp" />
+      <config projectName="armadillo2_bgu" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_Data_baseAction" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_VocalCmdActionGoal" />
+      <config projectName="armadillo2_bgu" targetName="tf2_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="observe" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_OperationAction" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_VocalCmdActionResult" />
+      <config projectName="armadillo2_bgu" targetName="manipulation" />
+      <config projectName="armadillo2_bgu" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="move" />
+      <config projectName="armadillo2_bgu" targetName="visualization_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="shape_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="moveit_ros_manipulation_gencfg" />
+      <config projectName="armadillo2_bgu" targetName="move-elv-2-floor" />
+      <config projectName="armadillo2_bgu" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="arm_trajectory_open_gripper" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_VocalCmdFeedback" />
+      <config projectName="armadillo2_bgu" targetName="object_recognition_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="data_base_node" />
+      <config projectName="armadillo2_bgu" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_genpy" />
+      <config projectName="armadillo2_bgu" targetName="moveit_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="tf_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="move_to_elevator" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_OperationActionResult" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceGoal" />
+      <config projectName="armadillo2_bgu" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="gtest_main" />
+      <config projectName="armadillo2_bgu" targetName="moveit_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="gmock" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePickActionFeedback" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="octomap_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="moveNear" />
+      <config projectName="armadillo2_bgu" targetName="arm_pick" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_geneus" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionFeedback" />
+      <config projectName="armadillo2_bgu" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="octomap_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="doxygen" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_Data_baseActionGoal" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_OperationGoal" />
+      <config projectName="armadillo2_bgu" targetName="octomap_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceFeedback" />
+      <config projectName="armadillo2_bgu" targetName="face_detect_omer" />
+      <config projectName="armadillo2_bgu" targetName="reset-mogo-db" />
+      <config projectName="armadillo2_bgu" targetName="object_recognition_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_Data_baseActionFeedback" />
+      <config projectName="armadillo2_bgu" targetName="clean_test_results" />
+      <config projectName="armadillo2_bgu" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetResult" />
+      <config projectName="armadillo2_bgu" targetName="visualization_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="octomap_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="armadillo2_bgu_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_VocalCmdResult" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_Data_baseFeedback" />
+      <config projectName="armadillo2_bgu" targetName="moveit_ros_planning_gencfg" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionResult" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetFeedback" />
+      <config projectName="armadillo2_bgu" targetName="search_for_person" />
+      <config projectName="armadillo2_bgu" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="face_elevator" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="visualization_msgs_generate_messages_nodejs" />
+      <config projectName="armadillo2_bgu" targetName="object_recognition_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="tf_generate_messages_lisp" />
+      <config projectName="armadillo2_bgu" targetName="std_msgs_generate_messages_py" />
+      <config projectName="armadillo2_bgu" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="armadillo2_bgu" targetName="visualization_msgs_generate_messages_cpp" />
+      <config projectName="armadillo2_bgu" targetName="_armadillo2_bgu_generate_messages_check_deps_SimplePickFeedback" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="903109c2-e5ea-474d-8b68-6d42173fdce9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/test.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/test.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/test_kcl.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/test_kcl.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gazebo/pick_gazebo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gazebo/pick_gazebo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arm_pick.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/arm_pick.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/give.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/give.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manipulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/manipulation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/master.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pick.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/pick.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/run_object_rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/run_object_rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search_for_person.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/search_for_person.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1905706886">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="7" />
+          <entry key="h" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="551" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="551" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pick.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gazebo/pick_gazebo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2565">
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/search_for_person.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/master.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/manipulation.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2565">
+              <caret line="171" column="18" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/give.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arm_pick.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="382" column="8" selection-start-line="382" selection-start-column="8" selection-end-line="382" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///opt/ros/kinetic/include/moveit/planning_scene_interface/planning_scene_interface.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pick</find>
+      <find>do</find>
+      <find>move</find>
+      <find>open_gri</find>
+      <find>close</find>
+      <find>TABLE_NAME</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/give.cpp" />
+        <option value="$PROJECT_DIR$/src/manipulation.cpp" />
+        <option value="$PROJECT_DIR$/src/search_for_person.cpp" />
+        <option value="$PROJECT_DIR$/src/master.cpp" />
+        <option value="$PROJECT_DIR$/src/arm_pick.cpp" />
+        <option value="$PROJECT_DIR$/src/pick.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1555" />
+    <option name="y" value="50" />
+    <option name="width" value="1613" />
+    <option name="height" value="1046" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="armadillo2_bgu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Planning" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="armadillo2_bgu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Planning" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Planning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="armadillo2_bgu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Planning" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Planning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="armadillo2_bgu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Planning" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Planning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Gazebo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.arm_pick">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_ActionDispatch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_ActionDispatch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_ActionFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_ActionFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_Data_baseAction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_Data_baseAction" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_Data_baseActionFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_Data_baseActionFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_Data_baseActionGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_Data_baseActionGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_Data_baseActionResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_Data_baseActionResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_Data_baseFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_Data_baseFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_Data_baseGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_Data_baseGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_Data_baseResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_Data_baseResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_OperationAction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_OperationAction" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_OperationActionFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_OperationActionFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_OperationActionGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_OperationActionGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_OperationActionResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_OperationActionResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_OperationFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_OperationFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_OperationGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_OperationGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_OperationResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_OperationResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_ReturnJointStates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_ReturnJointStates" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePickAction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePickAction" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePickActionFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePickActionFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePickActionGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePickActionGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePickActionResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePickActionResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePickFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePickFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePickGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePickGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePickResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePickResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceAction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceAction" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimplePlaceResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetAction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetAction" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_SimpleTargetResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_VocalCmdAction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_VocalCmdAction" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_VocalCmdActionFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_VocalCmdActionFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_VocalCmdActionGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_VocalCmdActionGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_VocalCmdActionResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_VocalCmdActionResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_VocalCmdFeedback" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_VocalCmdFeedback" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_VocalCmdGoal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_VocalCmdGoal" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_armadillo2_bgu_generate_messages_check_deps_VocalCmdResult" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="_armadillo2_bgu_generate_messages_check_deps_VocalCmdResult" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="actionlib_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="actionlib_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arm_pick" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="arm_pick" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="arm_pick">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arm_trajectory_close_gripper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="arm_trajectory_close_gripper" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="arm_trajectory_close_gripper">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arm_trajectory_give" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="arm_trajectory_give" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="arm_trajectory_give">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arm_trajectory_open_gripper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="arm_trajectory_open_gripper" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="arm_trajectory_open_gripper">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_gencpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_gencpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_generate_messages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_generate_messages" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_geneus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_geneus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_genlisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_genlisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_gennodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_gennodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="armadillo2_bgu_genpy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="armadillo2_bgu_genpy" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data_base_node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="data_base_node" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="data_base_node">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="detect_elv_door_open" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="detect_elv_door_open" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="detect_elv_door_open">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="download_extra_data" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="doxygen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enter_elvator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="enter_elvator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="enter_elvator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exit-elevator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="exit-elevator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="exit-elevator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face_detect_omer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="face_detect_omer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="face_detect_omer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="face_elevator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="face_elevator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="face_elevator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="geometry_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="geometry_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="geometry_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="geometry_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="geometry_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="geometry_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="give" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="give" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="give">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="manipulation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="manipulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="manipulation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="master" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="master" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="master">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="master_old" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="master_old" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="master_old">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="move-elv-2-floor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="move-elv-2-floor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="move-elv-2-floor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="move" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="move" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="move">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moveNear" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="moveNear" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="moveNear">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="move_to_elevator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="move_to_elevator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="move_to_elevator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moveit_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="moveit_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moveit_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="moveit_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moveit_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="moveit_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moveit_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="moveit_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moveit_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="moveit_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moveit_ros_manipulation_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="moveit_ros_manipulation_gencfg" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moveit_ros_planning_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="moveit_ros_planning_gencfg" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="object_detect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="object_detect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="object_detect">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="object_recognition_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="object_recognition_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="object_recognition_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="object_recognition_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="object_recognition_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="object_recognition_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="object_recognition_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="object_recognition_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="object_recognition_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="object_recognition_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="observe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="observe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="observe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="octomap_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="octomap_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="octomap_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="octomap_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="octomap_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="octomap_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="octomap_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="octomap_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="octomap_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="octomap_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="omer_planner" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="omer_planner" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="omer_planner">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pick" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="pick" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="pick">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pick_gazebo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="pick_gazebo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="pick_gazebo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reset-mogo-db" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="reset-mogo-db" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="reset-mogo-db">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="run_tests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search_for_person" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="search_for_person" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="armadillo2_bgu" RUN_TARGET_NAME="search_for_person">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="sensor_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="sensor_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="sensor_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="sensor_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sensor_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="sensor_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shape_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="shape_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shape_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="shape_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shape_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="shape_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shape_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="shape_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shape_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="shape_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf2_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf2_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf2_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf2_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf2_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf2_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tf_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="tf_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trajectory_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="trajectory_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trajectory_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="trajectory_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trajectory_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="trajectory_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trajectory_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="trajectory_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trajectory_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="trajectory_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="visualization_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="visualization_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="visualization_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="visualization_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visualization_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="armadillo2_bgu" TARGET_NAME="visualization_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_ActionDispatch" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_ActionFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_Data_baseAction" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_Data_baseActionFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_Data_baseActionGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_Data_baseActionResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_Data_baseFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_Data_baseGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_Data_baseResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_OperationAction" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_OperationActionFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_OperationActionGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_OperationActionResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_OperationFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_OperationGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_OperationResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_ReturnJointStates" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePickAction" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePickActionFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePickActionGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePickActionResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePickFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePickGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePickResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePlaceAction" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePlaceActionResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePlaceFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePlaceGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimplePlaceResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimpleTargetAction" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimpleTargetActionResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimpleTargetFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimpleTargetGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_SimpleTargetResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_VocalCmdAction" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_VocalCmdActionFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_VocalCmdActionGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_VocalCmdActionResult" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_VocalCmdFeedback" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_VocalCmdGoal" />
+      <item itemvalue="Application._armadillo2_bgu_generate_messages_check_deps_VocalCmdResult" />
+      <item itemvalue="Application.actionlib_generate_messages_cpp" />
+      <item itemvalue="Application.actionlib_generate_messages_eus" />
+      <item itemvalue="Application.actionlib_generate_messages_lisp" />
+      <item itemvalue="Application.actionlib_generate_messages_nodejs" />
+      <item itemvalue="Application.actionlib_generate_messages_py" />
+      <item itemvalue="Application.actionlib_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.actionlib_msgs_generate_messages_eus" />
+      <item itemvalue="Application.actionlib_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.actionlib_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.actionlib_msgs_generate_messages_py" />
+      <item itemvalue="Application.arm_pick" />
+      <item itemvalue="Application.arm_trajectory_close_gripper" />
+      <item itemvalue="Application.arm_trajectory_give" />
+      <item itemvalue="Application.arm_trajectory_open_gripper" />
+      <item itemvalue="Application.armadillo2_bgu_gencpp" />
+      <item itemvalue="Application.armadillo2_bgu_generate_messages" />
+      <item itemvalue="Application.armadillo2_bgu_generate_messages_cpp" />
+      <item itemvalue="Application.armadillo2_bgu_generate_messages_eus" />
+      <item itemvalue="Application.armadillo2_bgu_generate_messages_lisp" />
+      <item itemvalue="Application.armadillo2_bgu_generate_messages_nodejs" />
+      <item itemvalue="Application.armadillo2_bgu_generate_messages_py" />
+      <item itemvalue="Application.armadillo2_bgu_geneus" />
+      <item itemvalue="Application.armadillo2_bgu_genlisp" />
+      <item itemvalue="Application.armadillo2_bgu_gennodejs" />
+      <item itemvalue="Application.armadillo2_bgu_genpy" />
+      <item itemvalue="Application.clean_test_results" />
+      <item itemvalue="Application.data_base_node" />
+      <item itemvalue="Application.detect_elv_door_open" />
+      <item itemvalue="Application.download_extra_data" />
+      <item itemvalue="Application.doxygen" />
+      <item itemvalue="Application.enter_elvator" />
+      <item itemvalue="Application.exit-elevator" />
+      <item itemvalue="Application.face_detect_omer" />
+      <item itemvalue="Application.face_elevator" />
+      <item itemvalue="Application.geometry_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.geometry_msgs_generate_messages_eus" />
+      <item itemvalue="Application.geometry_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.geometry_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.geometry_msgs_generate_messages_py" />
+      <item itemvalue="Application.give" />
+      <item itemvalue="Application.manipulation" />
+      <item itemvalue="Application.master" />
+      <item itemvalue="Application.master_old" />
+      <item itemvalue="Application.move" />
+      <item itemvalue="Application.move-elv-2-floor" />
+      <item itemvalue="Application.move_to_elevator" />
+      <item itemvalue="Application.moveit_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.moveit_msgs_generate_messages_eus" />
+      <item itemvalue="Application.moveit_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.moveit_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.moveit_msgs_generate_messages_py" />
+      <item itemvalue="Application.moveit_ros_manipulation_gencfg" />
+      <item itemvalue="Application.moveit_ros_planning_gencfg" />
+      <item itemvalue="Application.moveNear" />
+      <item itemvalue="Application.object_detect" />
+      <item itemvalue="Application.object_recognition_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.object_recognition_msgs_generate_messages_eus" />
+      <item itemvalue="Application.object_recognition_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.object_recognition_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.object_recognition_msgs_generate_messages_py" />
+      <item itemvalue="Application.observe" />
+      <item itemvalue="Application.octomap_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.octomap_msgs_generate_messages_eus" />
+      <item itemvalue="Application.octomap_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.octomap_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.octomap_msgs_generate_messages_py" />
+      <item itemvalue="Application.omer_planner" />
+      <item itemvalue="Application.pick" />
+      <item itemvalue="Application.pick_gazebo" />
+      <item itemvalue="Application.reset-mogo-db" />
+      <item itemvalue="Application.roscpp_generate_messages_cpp" />
+      <item itemvalue="Application.roscpp_generate_messages_eus" />
+      <item itemvalue="Application.roscpp_generate_messages_lisp" />
+      <item itemvalue="Application.roscpp_generate_messages_nodejs" />
+      <item itemvalue="Application.roscpp_generate_messages_py" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_eus" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="Application.run_tests" />
+      <item itemvalue="Application.search_for_person" />
+      <item itemvalue="Application.sensor_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.sensor_msgs_generate_messages_eus" />
+      <item itemvalue="Application.sensor_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.sensor_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.sensor_msgs_generate_messages_py" />
+      <item itemvalue="Application.shape_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.shape_msgs_generate_messages_eus" />
+      <item itemvalue="Application.shape_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.shape_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.shape_msgs_generate_messages_py" />
+      <item itemvalue="Application.std_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.std_msgs_generate_messages_eus" />
+      <item itemvalue="Application.std_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.std_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.std_msgs_generate_messages_py" />
+      <item itemvalue="Application.tests" />
+      <item itemvalue="Application.tf2_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.tf2_msgs_generate_messages_eus" />
+      <item itemvalue="Application.tf2_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.tf2_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.tf2_msgs_generate_messages_py" />
+      <item itemvalue="Application.tf_generate_messages_cpp" />
+      <item itemvalue="Application.tf_generate_messages_eus" />
+      <item itemvalue="Application.tf_generate_messages_lisp" />
+      <item itemvalue="Application.tf_generate_messages_nodejs" />
+      <item itemvalue="Application.tf_generate_messages_py" />
+      <item itemvalue="Application.trajectory_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.trajectory_msgs_generate_messages_eus" />
+      <item itemvalue="Application.trajectory_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.trajectory_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.trajectory_msgs_generate_messages_py" />
+      <item itemvalue="Application.visualization_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.visualization_msgs_generate_messages_eus" />
+      <item itemvalue="Application.visualization_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.visualization_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.visualization_msgs_generate_messages_py" />
+      <item itemvalue="Application.gmock" />
+      <item itemvalue="Application.gmock_main" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="903109c2-e5ea-474d-8b68-6d42173fdce9" name="Default Changelist" comment="" />
+      <created>1550752573415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550752573415</updated>
+      <workItem from="1550752575211" duration="35000" />
+      <workItem from="1550752653689" duration="8406000" />
+      <workItem from="1551022357052" duration="2551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10992000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1745" y="-4" width="1615" height="1054" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25621414" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/manipulation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" column="18" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search_for_person.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/master.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/moveit/planning_scene_interface/planning_scene_interface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gazebo/pick_gazebo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2565">
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arm_pick.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="382" column="8" selection-start-line="382" selection-start-column="8" selection-end-line="382" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/give.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pick.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

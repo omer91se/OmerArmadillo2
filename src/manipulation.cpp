@@ -113,9 +113,8 @@ public:
     void open_gripper() {
         setGripperCmd(0.14);
     }
-
     void close_gripper() {
-        setGripperCmd(0.01, 0.007);
+        setGripperCmd(0.01);
     }
 
     void fixed_pour() {
@@ -162,14 +161,23 @@ void give(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as){
 
     as->setSucceeded();
 }
-void open(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as){
+void open(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as) {
     ROS_INFO("OPEN: In CB");
     ArmThrowNode armThrowNode;
     armThrowNode.open_gripper();
 
+    as->setSucceeded();
+}
+void close(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as) {
+    ROS_INFO("CLOSE: In CB");
+    ArmThrowNode armThrowNode;
+    armThrowNode.close_gripper();
+
+    as->setSucceeded();
+}
 
 //*****Action Callbacks******
-}
+
 void doneCb(const actionlib::SimpleClientGoalState& state, const control_msgs::FollowJointTrajectoryResultConstPtr& result) {
     ROS_INFO("Finish in state [%s]", state.toString().c_str());
 //    ROS_INFO_STREAM((*result));
@@ -208,11 +216,14 @@ int main(int argc, char** argv) {
     Server pourServer(n, "bgu_pour", boost::bind(&pour, _1, &pourServer), false);
     Server giveServer(n, "bgu_extend", boost::bind(&give, _1, &giveServer), false);
     Server openServer(n, "bgu_open",boost::bind(&open,_1,&openServer),false);
+    Server closeServer(n, "bgu_close",boost::bind(&close,_1,&closeServer),false);
 
     ros::AsyncSpinner spinner(4);
+
     giveServer.start();
     pourServer.start();
     openServer.start();
+    closeServer.start();
     spinner.start();
     ros::waitForShutdown();
 

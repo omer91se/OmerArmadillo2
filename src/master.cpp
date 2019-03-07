@@ -45,14 +45,15 @@ void controlCB(const rosplan_dispatch_msgs::ActionDispatch::ConstPtr& msg) {
     }
     // End: Shashank 8.8.18
 
-    Client client("bgu_"+msg->name, true);
-    ROS_INFO("[master]: Message name: bgu_%s", msg->name);
+    std::string action_name = "bgu_"+msg->name;
+    Client client(action_name, true);
+    ROS_INFO("[master]: Message name: %s", action_name.c_str());
     client.waitForServer();
 
 	while (ros::ok() && action) {
 		ros::Duration(2).sleep();
 		std::cout<<"[master]: Sending goal to: "<<msg->name<<std::endl;
-        client.sendGoal(goal);
+        client.sendGoalAndWait(goal);
         bool finished = client.waitForResult(ros::Duration());
 
   		if (finished){

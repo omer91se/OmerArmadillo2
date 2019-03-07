@@ -107,7 +107,6 @@ void pick_cb(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as){
         geometry_msgs::PointStamped origin_goal;
         origin_goal.header.frame_id = camFrameID;
 
-        std::cout << "goal->x:" << x << "\ngoal->y" << y << "\ngoal->z:" << z << std::endl;
         origin_goal.point.x = x;
         origin_goal.point.y = y;
         origin_goal.point.z = z + 0.035;
@@ -118,14 +117,10 @@ void pick_cb(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as){
 
         try {
             tf::TransformListener transformer;
-            ROS_INFO("[arm_server]: trying to transform 1 ");
-            std::cout << "origin_goal.header.frame_id:" << origin_goal.header.frame_id << std::endl;
             ros::Duration(5).sleep();
             transformer.waitForTransform("/base_footprint", origin_goal.header.frame_id, ros::Time(),
                                          ros::Duration(15));
-            ROS_INFO("[arm_server]: trying to transform 2 ");
             transformer.transformPoint("/base_footprint", origin_goal, transformed_goal);
-            ROS_INFO("[arm_server]: Transformed");
         }
         catch (tf::TransformException ex) {
             ROS_INFO("Exception!");
@@ -214,7 +209,7 @@ void place_cb(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as){
 int main(int argc, char** argv)
 {
   ros::init(argc, argv, "pick");
-  std::cout<<"Pick online"<<std::endl;
+  std::cout<<"pick_gazebo online"<<std::endl;
   ros::NodeHandle n;
 
   //for simple vision

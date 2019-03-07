@@ -1,4 +1,3 @@
-
 #include <ros/ros.h>
 #include <actionlib/server/simple_action_server.h>
 #include <actionlib/client/simple_action_client.h>
@@ -41,6 +40,7 @@ std::string obj_name = "";
 double distance = 0.0;
 
 // is execution is in process
+bool cobra = false;
 bool executing_pick = false;
 bool executing_place = false;
 bool executing_target = false;
@@ -310,8 +310,11 @@ void arm_position(std::string name){
     group.setStartStateToCurrentState();
     group.setNamedTarget(name);
     moveit::planning_interface::MoveGroupInterface::Plan startPosPlan;
-    if(group.plan(startPosPlan))
+    if(group.plan(startPosPlan)) {
         group.execute(startPosPlan);
+        cobra = true;
+    }
+
 }
 
 void executePickCB(const armadillo2_bgu::SimplePickGoalConstPtr& goal, pick_server_t* as)
@@ -323,72 +326,62 @@ void executePickCB(const armadillo2_bgu::SimplePickGoalConstPtr& goal, pick_serv
         return;
     }
     arm_position("cobra_center");
-    executing_pick = true;
+    if(cobra) {
+        executing_pick = true;
 
-    distance = 0.0;
+        distance = 0.0;
 
-    pick_client_t pick_client("pickup", true);
-    ROS_INFO("[arm_server]: waiting for Moveit pickup server");
-    pick_client.waitForServer();
-    ROS_INFO("[arm_server]: got Moveit pickup server");
+        pick_client_t pick_client("pickup", true);
+        ROS_INFO("[arm_server]: waiting for Moveit pickup server");
+        pick_client.waitForServer();
+        ROS_INFO("[arm_server]: got Moveit pickup server");
 
-    obj_name = goal->obj_name;
+        obj_name = goal->obj_name;
 
-    // visualize object in planning scene
-    addCylinderToScene(goal->obj_name,
-                       goal->x,
-                       goal->y,
-                       goal->z,
-                       goal->h,
-                       goal->w);
+        // visualize object in planning scene
+        addCylinderToScene(goal->obj_name,
+                           goal->x,
+                           goal->y,
+                           goal->z,
+                           goal->h,
+                           goal->w);
 
-    double table_z = goal->z - (goal->h / 2.0)/* - 0.01*/;
-    ROS_INFO("[arm_server]: 1");
-    addBoxToScene(TABLE_NAME,
-                  goal->x,
-                  goal->y,
-                  table_z,
-                  0.3,
-                  0.3,
-                  0.01);
+        double table_z = goal->z - (goal->h / 2.0)/* - 0.01*/;
+        addBoxToScene(TABLE_NAME,
+                      goal->x,
+                      goal->y,
+                      table_z,
+                      0.3,
+                      0.3,
+                      0.01);
 
 
-    // build and execute pick
-    moveit_msgs::PickupGoal pick_goal = buildPickGoal(goal->obj_name);
-    actionlib::SimpleClientGoalState pick_status = pick_client.sendGoalAndWait(pick_goal);
+        // build and execute pick
+        moveit_msgs::PickupGoal pick_goal = buildPickGoal(goal->obj_name);
+        actionlib::SimpleClientGoalState pick_status = pick_client.sendGoalAndWait(pick_goal);
 
-    // send result and last gripper_link position to client
-    geometry_msgs::PoseStamped eef_pose = group_ptr->getCurrentPose("gripper_link");
-    armadillo2_bgu::SimplePickResult result;
-    result.x = eef_pose.pose.position.x;
-    result.y = eef_pose.pose.position.y;
-    result.z = eef_pose.pose.position.z;
-    ROS_INFO("[arm_server]: 2");
+        // send result and last gripper_link position to client
+        geometry_msgs::PoseStamped eef_pose = group_ptr->getCurrentPose("gripper_link");
+        armadillo2_bgu::SimplePickResult result;
+        result.x = eef_pose.pose.position.x;
+        result.y = eef_pose.pose.position.y;
+        result.z = eef_pose.pose.position.z;
 
-    if(pick_status == actionlib::SimpleClientGoalState::SUCCEEDED)
-    {
-        ROS_INFO("[arm_server]: goal execution succeeded");
-        as->setSucceeded(result, pick_status.getText());
+        if (pick_status == actionlib::SimpleClientGoalState::SUCCEEDED) {
+            ROS_INFO("[arm_server]: goal execution succeeded");
+            as->setSucceeded(result, pick_status.getText());
+        } else {
+            ROS_WARN("[arm_server]: goal execution failed");
+            as->setAborted(result, pick_status.getText());
+        }
+
+        executing_pick = false;
+        std::vector<std::string> v;
+        v.push_back(TABLE_NAME);
+        planning_scene_ptr->removeCollisionObjects(v);
+
+        arm_position("driving");
     }
-    else
-    {
-        ROS_WARN("[arm_server]: goal execution failed");
-        as->setAborted(result, pick_status.getText());
-    }
-
-    executing_pick = false;
-
-    moveit_msgs::CollisionObject remove_object;
-    remove_object.id = TABLE_NAME;
-    remove_object.header.frame_id = "/base_footprint";
-    remove_object.operation = remove_object.REMOVE;
-
-
-    remove_object.id = goal->obj_name;
-    remove_object.header.frame_id = "/base_footprint";
-    remove_object.operation = remove_object.REMOVE;
-
-    arm_position("driving");
 }
 /***************************************************************************/
 

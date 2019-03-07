@@ -12,14 +12,16 @@ ros::Publisher pub;
 ros::Publisher pan_tilt_pub;
 bool found_person = false;
 bool start_looking = false;
-void move(double pan, double tilt);
+void move_head(double pan, double tilt);
 
 
 void find_person();
 
 void poseCB(const geometry_msgs::PoseStamped::ConstPtr& msg) {
     if(start_looking)
-        found_person = true;
+        std::cout<<"msg->pose.position.z: "<<msg->pose.position.z<<std::endl;
+        if(msg->pose.position.z < 0.85)
+            found_person = true;
 }
 
 void find_person(){
@@ -27,24 +29,23 @@ void find_person(){
       geometry_msgs::Twist msg;
       msg.angular.z = 0;
       int count = 0;
-      while(ros::ok() && count < 4){ 
+      while(ros::ok() && count < 1){ 
             //face detection stuff
-            ROS_INFO("Publishing");
-            msg.angular.z = PI/8;
+            msg.angular.z = PI/16;
             
             pub.publish(msg);
-            ROS_INFO("Sleep");
             loop_rate.sleep();
-            ROS_INFO("Woke up");
             if(found_person)
                 count++;            
-            //ros::spinOnce(); 
-    } 
-    msg.angular.z = 0;
-    pub.publish(msg);
+            
+      }
+      msg.angular.z = 0;
+      pub.publish(msg);
+      found_person = false;
+      start_looking = false;
 }
 
-void move(double pan, double tilt){
+void move_head(double pan, double tilt){
     ros::Duration loop_rate(1.0);
     int i = 0;
     while(ros::ok() && i < 2){
@@ -67,7 +68,7 @@ void move(double pan, double tilt){
         traj.points[0].velocities.push_back(0.1);
         pan_tilt_pub.publish(traj);
         loop_rate.sleep();
-        ros::spinOnce();
+        //ros::spinOnce();
     }
 }
 void execute(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as) 
@@ -78,7 +79,7 @@ void execute(const armadillo2_bgu::OperationGoalConstPtr& goal, Server* as)
     start_looking = true;
     armadillo2_bgu::OperationResult result_;
 
-    move(0,-0.02);
+    move_head(0,-0.02);
     loop_rate.sleep();
     find_person();
 
@@ -93,7 +94,7 @@ int main(int argc, char **argv){
     ros::init(argc, argv, "search_for_person");
     ros::NodeHandle nh;
 
-    Server server(nh, "bgu_search_for_person", boost::bind(&execute, _1, &server), false);
+    Server server(nh, "bgu_searchforperson", boost::bind(&execute, _1, &server), false);
     server.start();
 
     pub = nh.advertise<geometry_msgs::Twist>("cmd_vel", 1000);

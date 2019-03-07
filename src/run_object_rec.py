@@ -13,6 +13,7 @@ import sensor_msgs.point_cloud2 as pc2
 from armadillo2_bgu.msg import OperationAction
 from object_recognition.objects_detection import processRequest, parse_query
 from object_recognition.tts import tts
+from object_recognition.command_listener import SyncListener
 
 
 from object_recognition.voice_recognition import SpeechDetector
@@ -34,6 +35,7 @@ my_gui = None
 image_data = None
 server = None
 server_tts = None
+server_stt = None
 answer = None
 auto_speech = False
 points = None
@@ -300,13 +302,14 @@ class ObjectRecognizer:
 
 
 def text_check(goal):
-
+    #global server_stt
     #The string to check
-    answer = goal.data
-    if answer == '<unrecognized speech>':
+    listener = SyncListener()    
+    vocal_cmd = listener.listen()
+    if vocal_cmd == '<unrecognized speech>':
         return
-
-    lowercase_query = answer.lower()
+    print "got vocal: " + vocal_cmd 
+    lowercase_query = vocal_cmd.lower()
     _result = armadillo2_bgu.msg.OperationResult()
 
     command = None
@@ -314,9 +317,9 @@ def text_check(goal):
     if 'release' in lowercase_query or 'open' in lowercase_query: # open grip
         command = 'open'
 
-    _result.data = command
-
-    server.set_succeeded(_result)
+    _result.res = command
+    print "returning the result"
+    server_stt.set_succeeded(_result)
 
 #decides whether to use STT or written query.
 def execute(goal):
@@ -325,7 +328,6 @@ def execute(goal):
     global my_gui
     global server
     global answer
-
 
     _result = armadillo2_bgu.msg.OperationResult()
     rospy.loginfo("[run_object_rec]: Observing...")
@@ -377,6 +379,7 @@ def main():
 
     global server
     global server_tts
+    global server_stt
     rospy.init_node('observe')
 
     server = actionlib.SimpleActionServer('observe', OperationAction,execute, False)
@@ -387,8 +390,6 @@ def main():
     server.start()
     server_tts.start()
     rospy.spin()
-
-
 
 if __name__ == "__main__":
     main()
